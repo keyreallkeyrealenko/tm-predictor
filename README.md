@@ -42,7 +42,7 @@ selenium webdriver must be installed on your machine. E.g. see here: https://sel
 
 ## Usage and example:
 
-Code below would parse file example.fasta from current directory and save all the results to ~/Desktop directory
+Code below would parse file example.fasta from current directory and save all the results to the ~/Desktop directory
 ```commandline
 main.py example.fa ~/Desktop/
 ```
