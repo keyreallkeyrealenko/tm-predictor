@@ -7,7 +7,7 @@ from Bio import SeqIO
 def parse(path_to_file: str) -> tuple:
     correct_letters = 'CDSQKIPTFNGHLRWAVEYM'
     url = 'http://tm.life.nthu.edu.tw/index.htm'
-    parser = SeqIO.parse(path_to_file, 'fasta')  # Escherichia coli
+    parser = SeqIO.parse(path_to_file, 'fasta')
 
     categories = {}
     total_tm_index = []

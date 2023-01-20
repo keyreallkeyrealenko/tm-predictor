@@ -11,7 +11,6 @@ def main():
     parser.add_argument('infile', type=str)
     parser.add_argument('outdir', type=str, default=None, nargs='?')
     args = parser.parse_args()
-    print(args)
     full_inpath = os.path.abspath(args.infile)
     full_outpath = os.path.abspath(args.outdir)
 
