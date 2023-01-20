@@ -1,8 +1,8 @@
 # Description
 
 This repository allows you to predict **tm-index** of proteins written in .fasta file.
-It works as parser of http://tm.life.nthu.edu.tw/index.htm web open tool (DOI: 10.1016/j.compbiolchem.2009.10.002).
-As a result, you get 1) barplots of predicted categories 2) JSON-files describe each protein, groups. 
+It works as a parser of http://tm.life.nthu.edu.tw/index.htm web open tool (DOI: 10.1016/j.compbiolchem.2009.10.002).
+As a result, you get 1) barplots of predicted categories 2) JSON-files describe each protein, temperature groups. 
 
 ## Installation
 
