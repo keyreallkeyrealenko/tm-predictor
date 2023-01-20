@@ -44,9 +44,12 @@ selenium webdriver must be installed on your machine. E.g. see here: https://sel
 
 Code below would parse file example.fasta from current directory and save all the results to ~/Desktop directory
 ```commandline
-python3 main.py example.fasta ~/Desktop/
+main.py example.fa ~/Desktop/
 ```
 
 ## Notes:
 
-program was tested on macOS Monterey V 12.6. Should work on any UNIX-machine too 
+Program was tested on macOS Monterey V 12.6. Should work on any UNIX-machine too.
+
+For 2000 proteins it works for about 2-3 hours.
+
